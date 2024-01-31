@@ -19,6 +19,7 @@ public class App {
             case 5: new Ejercicio_5(); break;
             case 6: new Ejercicio_6(); break;
             case 7: new Ejercicio_7(); break;
+            case 8: new Ejercicio_8(); break;
         }
     }
 }
