@@ -50,9 +50,16 @@ public class InputReader {
     }
 
     // Retorna el input convertido a double
-    public double ReadDouble(String a) throws IOException {
+    public double ReadDouble(String a){
         System.out.print(a);
-        double doogle = Double.parseDouble(scanner.readLine());
+        double doogle;
+        try {
+            doogle = Double.parseDouble(scanner.readLine());
+        }catch (NumberFormatException e){
+            throw new RuntimeException("Illegal argumetn isn't a Double value")
+        }catch (IOException e){
+            throw new RuntimeException(e);
+        }
         return  doogle;
     }
     // Retorna el input convertido a long
