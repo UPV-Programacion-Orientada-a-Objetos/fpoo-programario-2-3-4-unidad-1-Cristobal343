@@ -17,7 +17,7 @@ public class Ejercicio_19 extends Generico_Default{
             this.setDescuento(rebate.Rebate_sell(this.getCosto(),0.15f));
         } else if (this.getCosto() > 100f || this.costo <= 200){
             this.setDescuento(rebate.Rebate_sell(this.costo, 0.12f));
-        } else {this.setDescuento(rebate.Rebate_sell(this.costo, 0.10f))}
+        } else {this.setDescuento(rebate.Rebate_sell(this.costo, 0.10f));}
     }
 
     public float getCosto() {

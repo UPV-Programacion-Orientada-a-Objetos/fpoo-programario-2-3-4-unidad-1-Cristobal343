@@ -56,7 +56,7 @@ public class InputReader {
         try {
             doogle = Double.parseDouble(scanner.readLine());
         }catch (NumberFormatException e){
-            throw new RuntimeException("Illegal argumetn isn't a Double value")
+            throw new RuntimeException("Illegal argumetn isn't a Double value");
         }catch (IOException e){
             throw new RuntimeException(e);
         }

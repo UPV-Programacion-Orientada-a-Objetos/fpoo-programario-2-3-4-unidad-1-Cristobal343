@@ -12,7 +12,7 @@ public class Ejercicio_18 extends App {
                 "-".repeat(20) + "Ejericio_18 Nombre & Edad" + "-".repeat(10)
                 + "\n" + "-".repeat(70));
         this.setNombre(input.ReadLine("Ingrese su nombre: "));
-        this.setEdad(input.ReadInteger(0"Ingrese su Edad: "));
+        this.setEdad(input.ReadInteger("Ingrese su Edad: "));
         this.toString();
     }
 

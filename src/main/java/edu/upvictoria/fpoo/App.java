@@ -32,7 +32,18 @@ public class App {
             case 16: new Ejercicio_16(); break;
             case 17: new Ejercicio_17(); break;
             case 18: new Ejercicio_18(); break;
-
+            case 19: new Ejercicio_19(); break;
+            case 20: new Ejercicio_20(); break;
+            case 21: new Ejercicio_20(); break;
+            case 22: new Ejercicio_21(); break;
+            case 23: new Ejercicio_23(); break;
+            case 24: new Ejercicio_24(); break;
+            case 25: new Ejercicio_25(); break;
+            case 26: new Ejericicio_26(); break;
+            case 27: new Ejericicio_27(); break;
+            case 28: new Ejericicio_28(); break;
+            case 29: new Ejercicio_29(); break;
+            case 30: new Ejercicio_30(); break;
         }
     }
 }

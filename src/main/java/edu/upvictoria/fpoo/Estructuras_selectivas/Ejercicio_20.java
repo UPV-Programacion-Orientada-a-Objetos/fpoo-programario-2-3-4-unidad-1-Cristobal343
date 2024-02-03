@@ -8,9 +8,11 @@ public class Ejercicio_20 extends Generico_Default{
         System.out.println("-".repeat(70) + "\n" +
                 "-".repeat(20) + "Ejericio_20 Calcular Descuento" + "-".repeat(10)
                 + "\n" + "-".repeat(70));
+        Calcular_Descuento();
     }
 
     public void Calcular_Descuento() {
+        this.setPrecio(input.ReadFloat("Ingrese un precio al producto: "));
         if (this.getPrecio() > 200f){
             this.setDescuento(rebate.Rebate_sell(this.getPrecio(), 0.15f));
         } else if (this.getPrecio() >= 100f || this.getPrecio() <= 200f){

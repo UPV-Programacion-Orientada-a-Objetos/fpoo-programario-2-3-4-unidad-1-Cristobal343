@@ -5,6 +5,6 @@ public class Generico_Default { // esta clase solo sirve para tener accesos a lo
     Rebate rebate = new Rebate();
     Min_Max_Value minmax = new Min_Max_Value();
     IsNegative isnegative = new IsNegative();
-
     InputReader input = new InputReader();
+    Diferencia dif = new Diferencia();
 }
